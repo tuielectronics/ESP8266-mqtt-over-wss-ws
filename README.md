@@ -1,8 +1,8 @@
 # ESP8266-mqtt-over-wss-ws
-> ESP8266 mqtt client over WebSockets layer and WebSockets secure without 3rd-party library
+> Arduino ESP8266 mqtt client over WebSockets layer and WebSockets secure without 3rd-party library
 
 ## Step 1, 
-> choose WebSockets or WebSockets secure (TLS)
+> choose WebSockets or WebSockets secure (TLS), if you choose USE_TLS, please update your root CA 
 
 `#define USE_TLS 1 //comment this line to disable TLS`
 
